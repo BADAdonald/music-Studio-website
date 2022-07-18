@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Rubik:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav-bar{
+    background-color: rgba(165, 42, 42, 0.144);
+    height: 5vh;
+    width: 100%;
+}
+
+.nav-bar-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.home-element{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    visibility:hidden ;
+}
+.home-element a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home-element a:hover{
+    color: red;
+    transition: 0.5s ease-in;
+    text-decoration: underline;
+}
+.logo{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(202,155,26);
+}
+.logo span{
+    color: red;
+}
+.menu-toggle{
+    color: rgb(202,155,26);
+    cursor: pointer;
+    visibility: visible;
+}
+.menu-toggle .fa-close{
+    visibility: hidden;
+    color: rgb(202,155,26);
+}
+.menu-element-display{
+    text-align: center;
+    background-color: rgba(165, 42, 42, 0.144);
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: sans-serif;
+    list-style: none;
+}
+.menu-element-display a{
+    text-decoration: none;
+    color: white;
+}
+.menu-element-display a:hover{
+    color: red;
+    transition: 0.5s ease-in;
+    text-decoration: underline;
+}
+.menu-element{
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+}
+/* head contain with activities details*/
+#head-conntain{
+   
+}
+.headset img{
+    width: 55vh;
+}
+.contain-element{
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+    justify-content: center;
+    justify-content: space-around;
+}
+.contain-details li{
+    list-style: none;
+    margin: 50px;
+    font-size: 25px;
+}
+.instrumental-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    color: rgb(202,155,26);
+}
+.contain-details li a{
+    text-decoration: none;
+    color: rgba(70,70,70,0.486);
+    font-weight: 700;
+    text-decoration: underline;
+}
+.contain-details a:hover{
+    font-size: 27px;
+    color: wheat;
+}
+
+/* End contain with activities details*/
+/* section services*/
+ #sous-title{
+     position: absolute;
+     margin-top: 13px;
+     border-left: 1px solid;
+     border-right: 1px solid;
+     margin-left: 70px;
+     background-color: #ffffff;
+     font-size: 30px;
+     font-family: 'rubik';
+     color: rgb(202,155,26);
+ }
+
+ #services{
+     margin: 30px;
+     border: 2px solid goldenrod;
+     border-radius: 10px;
+     min-height: 70vh;
+ }
+.services-contain{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#instru-text{
+    font-family:'Josefin Sans';
+    color: rgb(224, 40, 40);
+    padding: 5px;
+}
+.services-contain-details{
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 3px gray;
+}
+/* End  of the services section*/
+/* section of vision */
+#vision{
+    margin: 60px 30px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    min-height: 30vh;
+}
+
+.vision-background-second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    font-family: 'Josefin Sans';
+    letter-spacing: 2px;
+}
+/* End of vision section*/
+/* reference section*/
+#reference{
+    border-radius: 4px;
+    margin: 30px;
+}
+
+.ref-details{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'rubik';
+    color: goldenrod;
+}
+
+#ref-text{
+    padding-top: 20px;
+}
+.ref-image img{
+    border-radius: 100px;
+    box-shadow: 3px 2px 20px 5px gold;
+    height: 100px;
+}
+.ref-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+
+}
+/* End of the reference section*/
+/* footer section*/
+#footer{
+    margin-top: 30px;
+    background-color: goldenrod;
+    font-family: 'josefin sans';
+    
+
+}
+
+.footer-social{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+
+}
+.icon-details a{
+    text-decoration: none;
+}
+.icon-details #icon{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.icon-details{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.footer-enquiries{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#textarea{
+    box-shadow: 2px 3px 20px 3px greenyellow;
+    border-color: greenyellow;
+    border-radius: 5px;
+}
+input{
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 20px  3px greenyellow;
+    border-color: greenyellow;
+}
+#email{
+    height: 5vh;
+    font-weight: 700;
+    font-family: 'josefin Sans';
+    width: 30vh;
+}
+#email{
+    height: 5vh;
+    font-weight: 700;
+    font-family: 'josefin Sans';
+    width: 30vh;
+}
+#submit{
+    height: 5vh;
+    width: 15vh;
+    cursor: pointer;
+    color: white;
+}
+.footer-location{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width:800px){
+    .home-element a{
+        font-size: 15px;
+    }
+    .home-element{
+        gap: 7rem;
+        visibility: visible;
+    }
+    .menu-toggle{
+        visibility: hidden;
+    }
+    .menu-toggle .fa-close{
+        display: none;
+    }
+    .menu-toggle .fa-bars{
+        display: none;
+    }
+    .menu-element-display{
+        visibility: hidden;
+    }
+
+}
+@media only screen and (max-width:800px){
+    .home-element{
+        gap: 0;
+    }
+    .contain-element{
+        flex-direction: column-reverse;
+    }
+    .contain-details li{
+        margin: 6px;
+    }
+    .headset img{
+        width: 45vh;
+    }
+}
+
+@media only screen and (min-width:1500px){
+    .background{
+        padding: 50px;
+    }
+    .vision-background-first{
+        background-color: goldenrod;
+        height: 20vh;
+        width: 180vh;
+    }
+    .vision-background-second{
+        position: absolute;
+        background-color: wheat;
+        width: 180vh;
+        height: 20vh;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #reference{
+        box-shadow: 2px 2px 20px 6px gold;
+        padding-top: 5px;
+        border-radius: 10px;
+    }
+}
